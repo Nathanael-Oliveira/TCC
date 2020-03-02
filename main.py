@@ -55,9 +55,8 @@ while (i < 100):
         if Seller != loja :
 
 
-            email = 'nathanaelbrs@gmail.com'
-            password = 'Nathanael@7'
-            send_to_email = 'nathanael@contatogroup.com.br'
+            email = ''
+            password = '
             subject = 'BuyBox perdido!' # The subject line
             message = ("Olá Nathanael, o produto: \n \n" + descricao + "\n \nE está com as seguintes condições: \n\n"+ Preco +".\n\nE vendido por: \n\n" + Seller +"\n\nVerifique as condições para ganhar o BUYBOX!")
 

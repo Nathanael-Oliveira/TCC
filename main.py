@@ -47,7 +47,7 @@ while (i < 100):
             driver = webdriver.Firefox(options=option)
             driver.get(url)
             
-            # precesso de captura dos dados na pagina usando Xpath
+            # Processo de captura dos dados na pagina usando Xpath
             # No caso do site da americanas o layout quando o vendedor é a propria americanas muda, então aplico um try/except
             try:
                 Seller = driver.find_element_by_xpath("//*[@id='content']/div/div/div[2]/div/section/div/div[2]/div[2]/div/div[2]/div[1]/div[2]/span/a").text                     
